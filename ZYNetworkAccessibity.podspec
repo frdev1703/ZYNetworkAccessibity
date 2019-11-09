@@ -12,4 +12,5 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "8.0"
   s.source       = { :git => "https://github.com/frdev1703/ZYNetworkAccessibity.git", :tag => "#{s.version}" }
   s.source_files  = 'ZYNetworkAccessibity/**/*'
+  s.public_header_files = 'ZYNetworkAccessibity/**/*.h'
 end
